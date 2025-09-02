@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# AWS credentials (if ever used locally)
+*.auto.tfvars
+*.tfvars
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs or temp files
+*.log
